@@ -1,0 +1,57 @@
+
+.form{
+    width: 700px;
+    height: 400px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h2{
+    color: darkblue;
+    padding-top: 20px;
+    font-size: 30pt;
+    font-family: 'Quicksand', sans-serif;
+}
+
+label{
+    font-size: 16pt;
+    font-family: 'Quicksand', sans-serif;
+}
+#label1{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+#label2{
+    margin-left: 20px;
+    margin-right: 85px;
+}
+
+#label3{
+    margin-left: -53px;
+    margin-right: 93px;
+}
+
+#currency{
+    width: 75px;
+    font-size: 16pt;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 14pt;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+#result{
+    margin-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+}

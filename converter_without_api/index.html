@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mein Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <h2>Converter Form (WiSe 2022/2023)</h2>
+      <form>
+        <label for="euro" id="label1">Euro Amount:</label>
+        <input type="text" id="euro"/><br><br>
+
+        <label for="customer" id="label2">Customer:</label>
+        <input type="text" id="customer" /><br><br>
+
+        <label for="currency" id="label3">Currency:</label>
+        <select name="currency" id="currency">
+          <option value="USD" id="option1">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="EUR">EUR</option>
+          <option value="JPY">JPY</option>
+          <option value="CHF">CHF</option>
+        </select><br><br>
+
+        <button type="button" id="convert">Convert</button><!-- comment -->
+        <button type="button" id="reset">Reset</button>
+
+        <p id="result"></p>
+
+      </form>
+    </div>
+  </body>
+</html>

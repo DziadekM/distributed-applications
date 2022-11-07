@@ -1,0 +1,19 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "Currency Converter",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DziadekM/distributed-applications.git"
+  },
+  "author": "Melanie Dziadek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DziadekM/distributed-applications/issues"
+  },
+  "homepage": "https://github.com/DziadekM/distributed-applications#readme"
+}

@@ -1,2 +1,3 @@
-# distributed-applications
-Module Distributed Application at Hochschule Fulda
+# 💻 Distributed Applications
+
+Exercise Repo for the Module Distributed Application at Hochschule Fulda

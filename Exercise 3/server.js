@@ -45,6 +45,16 @@ app.get("/api/passengers/:id/:airline", function (req, res) {
   });
 });
 
+//Book a flight for a passenger
+app.post("/api/booking/:id", function (req, res) {
+  fs.readFile(__dirname + "/" + "passenger.json", "utf8", function (err, data) {
+    //get the JSON-Request from Postman and display it here --> no database implemented
+    req.body;
+    console.log(JSON.stringify(req.body));
+    res.json(req.body);
+  });
+});
+
 // cancel or delete a flight
 app.delete("/api/cancelFlight/:flight", function (req, res) {
   // First read existing users.

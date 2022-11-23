@@ -11,10 +11,11 @@
 
 ### Endpoints
 
-| URI            | HTTP Method |   POST body | Details                                                          |
-| -------------- | :---------: | ----------: | ---------------------------------------------------------------- |
-| listPassengers |     GET     |       empty | Find all passengers on a particular flight                       |
-| addPassengers  |    POST     | JSON String | book a flight for a passenger                                    |
-| cancelFlight   |   DELETE    | JSON String | cancel a flight                                                  |
-| :id            |     GET     |       empty | Find all flights of a specific passenger on a particular airline |
-| rebook/:id     |     GET     |       empty | rebook a passenger |
+| URI                             | HTTP Method |   POST body | Details                                                          |
+| ------------------------------- | :---------: | ----------: | ---------------------------------------------------------------- |
+| /api/passengersOnFlight/:flight |     GET     |       empty | Find all passengers on a particular flight                       |
+| /api/passengers/:id/:airline    |    POST     |         GET | Find all flights of a specific passenger on a particular airline |
+| /api/booking/:id                |    POST     | JSON String | Book a flight for a passenger                                    |
+| /api/cancelFlight/:flight       |   DELETE    |       empty | cancel a flight                                                  |
+
+| /api/rebookPassenger/:id | POST | empty | rebook a passenger |

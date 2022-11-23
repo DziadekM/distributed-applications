@@ -1,0 +1,39 @@
+
+
+{
+"_comment": "simple passenger database (passengers.json)",
+
+   "user1" : {
+      "name" : "Jahn",
+      "flight" : "NY123",
+      "airline" : ["Lufthansa", "American Airlines", "Delta Airlines"],
+      "id": 1
+   },
+   
+   "user2" : {
+      "name" : "Kümmel",
+      "flight" : "IRL123",
+      "airline" : ["AerLingus", "Lufthansa", "CityJet"],
+      "id": 2
+   },
+   
+   "user3" : {
+      "name" : "Dziadek",
+      "flight" : "NOR123",
+      "airline" : ["Norwegian", "Lufthansa"],
+      "id": 3
+   },
+    "user4" : {
+      "name" : "Früh",
+      "flight" : "INV123",
+      "airline" : ["British Airways", "Air Antlantique", "Lufthansa"],
+      "id": 4
+   },
+   "user5" : {
+      "name" : "Kirchner",
+      "flight" : "INV123",
+      "airline" : ["British Airways", "Lufthansa", "Loganair"],
+      "id": 5
+   }
+
+}

@@ -1,0 +1,35 @@
+{ 
+"passengers":[
+
+  {
+    "name": "Jahn",
+    "flight": "NY123",
+    "airline": "American Airlines",
+    "id": 1
+  },
+  {
+    "name": "Kümmel",
+    "flight": "IRL123",
+    "airline": "AerLingus",
+    "id": 2
+  },
+  {
+    "name": "Dziadek",
+    "flight": "NOR123",
+    "airline": "Norwegian",
+    "id": 3
+  },
+  {
+    "name": "Früh",
+    "flight": "INV123",
+    "airline":  "Lufthansa",
+    "id": 4
+  },
+  {
+    "name": "Kirchner",
+    "flight": "INV123",
+    "airline": "British Airways",
+    "id": 5
+  }
+]
+}

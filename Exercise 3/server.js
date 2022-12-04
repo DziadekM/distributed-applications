@@ -57,7 +57,6 @@ app.post("/api/booking/:id", function (req, res) {
 
 // cancel or delete a flight
 app.delete("/api/cancelFlight/:flight", function (req, res) {
-  // First read existing users.
   fs.readFile(__dirname + "/" + "passenger.json", "utf8", function (err, data) {
     var allPassengers = JSON.parse(data);
     var flight = req.params.flight;

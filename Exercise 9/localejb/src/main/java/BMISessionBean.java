@@ -1,5 +1,4 @@
 import jakarta.ejb.Stateless;
-//import java.io.File;
 
 @Stateless
 public class BMISessionBean implements BMICalculatorLocal {

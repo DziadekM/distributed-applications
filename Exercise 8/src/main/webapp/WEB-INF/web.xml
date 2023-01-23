@@ -3,10 +3,9 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
   <display-name>BMI</display-name>
    <welcome-file-list>
-       <welcome-file>startBMI.jsp</welcome-file>
+       <welcome-file>BMI.html</welcome-file>
   </welcome-file-list>
 
  <servlet>
@@ -17,7 +16,5 @@
         <servlet-name>BMICalculatorServlet</servlet-name>
         <url-pattern>/calculateServlet</url-pattern>
     </servlet-mapping>
-
- 
 </web-app>
 

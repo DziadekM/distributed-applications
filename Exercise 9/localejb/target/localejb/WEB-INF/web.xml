@@ -3,18 +3,17 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>BMI</display-name>
+   <display-name>BMI - EJB</display-name>
    <welcome-file-list>
        <welcome-file>BMI.html</welcome-file>
   </welcome-file-list>
 
  <servlet>
-       <servlet-name>BMICalculatorServlet</servlet-name>
-       <servlet-class>BMICalculatorServlet</servlet-class>
+       <servlet-name>BMIServlet</servlet-name>
+       <servlet-class>BMIServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>BMICalculatorServlet</servlet-name>
+        <servlet-name>BMIServlet</servlet-name>
         <url-pattern>/calculateServlet</url-pattern>
     </servlet-mapping>
 </web-app>
-
